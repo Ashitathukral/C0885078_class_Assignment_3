@@ -1,0 +1,20 @@
+{
+  "name": "c0885078_assignment_3",
+  "version": "1.0.0",
+  "description": "Devops Assignment 3 for node express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "assignment3",
+    "devops"
+  ],
+  "author": "C0885078-Ashita",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
