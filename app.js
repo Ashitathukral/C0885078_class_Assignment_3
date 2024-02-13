@@ -3,6 +3,7 @@ const express = require('express');
 
 const app = express();
 const SERVER_PORT = process.env.PORT || 3000;
+const NAME = process.env.NAME || "Ashita"
 
 
 // Serve an HTML homepage
@@ -16,5 +17,6 @@ app.get('/product', (req, res) => {
 
 app.listen(SERVER_PORT, () => {
     console.log(`Server listening on port ${SERVER_PORT}`);
+    console.loh(`NAME : ${NAME}`)
     
 });
