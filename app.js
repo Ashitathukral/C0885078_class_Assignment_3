@@ -17,6 +17,5 @@ app.get('/product', (req, res) => {
 
 app.listen(SERVER_PORT, () => {
     console.log(`Server listening on port ${SERVER_PORT}`);
-    console.loh(`NAME : ${NAME}`)
-    
+    console.log(`NAME : ${NAME}`);
 });
